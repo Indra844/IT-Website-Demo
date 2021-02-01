@@ -1,0 +1,80 @@
+.Home {
+  width: 100%;
+}
+.home {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.image__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home__page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home__image {
+  height: 300px;
+  width: 100%;
+  object-fit: contain;
+  margin-left: 10px;
+  padding: 10px;
+}
+.home__tags h1 {
+  color: #111;
+  font-size: 45px;
+}
+.home__tags h2 {
+  color: #111;
+  font-size: 20px;
+}
+
+.brand__name {
+  color: #3498db !important;
+}
+.home__button {
+  margin-top: 10px;
+  background-color: white !important;
+  color: #111;
+  border-radius: 20px !important;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.home__button:hover {
+  background-color: #3498db !important;
+  color: white;
+}
+.service {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(236, 234, 234);
+}
+.result_block {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+.result {
+  height: 100px;
+  width: 100%;
+  object-fit: contain;
+}
+.chooseus_block {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(236, 234, 234);
+}
+.choose_us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chooseus__icon {
+  height: 50px;
+}

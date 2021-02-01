@@ -1,0 +1,19 @@
+.navbar {
+  background-color: #ffffff !important;
+}
+.mode_active {
+  font-weight: bold;
+  border-bottom: 1px solid #565359;
+}
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: #565387 !important;
+}
+.navbar a {
+  margin: 10px;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.navbar a:hover {
+  color: #3498db !important;
+}
